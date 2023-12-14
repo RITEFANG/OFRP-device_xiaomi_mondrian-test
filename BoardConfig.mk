@@ -153,7 +153,7 @@ TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
 
 # Kernel modules
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko fts_touch_spi.ko leds-qpnp-vibrator-ldo.ko qti_battery_charger_main_m81.ko"
+TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko stm_core.ko fts_touch_spi.ko xiaomi_touch.ko focaltech_fts.ko leds-qpnp-vibrator-ldo.ko qti_battery_charger_main_m81.ko hwmon.ko"
 
 # Serialno
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
