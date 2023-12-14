@@ -43,6 +43,7 @@ on fs
 
 service vibratorfeature-hal-service /vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
     class hal
-    user system
-    group system input
-    onrestart restart vibratorfeature
+    user root
+    group root system input
+    disable
+    seclabel u:r:recovery:s0
